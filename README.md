@@ -44,26 +44,11 @@
 | `/clear_backups`             | Админ       | Удалить все текущие архивы вручную                                       |
 | `/status`                    | Админ       | Показать формат архива, след. запуск, сколько архивов в `tmp/`           |
 
+
 ---
 
-## 📝 Конфигурация: `config.yml`
+## 🚀 Установка и запуск
 
-<code><pre>bot:
-token: "TELEGRAM_BOT_TOKEN"
-admin_id:
-- 123456789 # ваши Telegram user_id
-
-servers:
-
-name: server1
-ip: 192.168.1.101
-port: 22
-login: root
-password: your_password
-backup_filename: backup
-
-backup:
-local: true # сохранять ли архивы локально
-auto: "03:00" # время авто-бэкапа
-format: "zip" # zip или tar.gz</pre></code>
-
+### 1. Клонируй проект:
+<code><pre>git clone https://github.com/sterjs/marz-backuper</pre></code>
+<code><pre>cd marz-backuper</pre></code>
