@@ -50,5 +50,5 @@
 ## 🚀 Установка и запуск
 
 ### 1. Клонируй проект:
-<code><pre>git clone https://github.com/sterjs/marz-backuper</pre></code>
-<code><pre>cd marz-backuper</pre></code>
+```git clone https://github.com/sterjs/marz-backuper```
+```cd marz-backuper```
