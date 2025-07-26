@@ -1,0 +1,30 @@
+bot:
+  token: "7978633130:AAEc85uL7smJ-tQByPehiMwP1-N1h0VEcs8"
+  admin_id:
+    - 7912298978 # ваш телеграм айди
+  # lang: ru # будет реализован в будущем
+  # chat_id: # тоже в будущем
+  #   - id
+
+servers:
+  - name: main
+    ip: 192.178.1.1 # тут должен быть ваш айпи
+    port: 22 # порт ssh
+    login: root # юзер для подключения
+    password: "dean" # пароль от ssh
+    backup_filename: "backup"
+    backup_interval: 30 # интервал по которому будут создаваться бэкапы
+  # - name: local_server
+  #   ip: local
+  #   port: 22 # можно ставить любой
+  #   login: ""
+  #   password: "" # можно оставить пустым
+  #   backup_filename: ""
+  #   backup_interval: 60
+  #
+  #   выше представлен конфиг, в случае если вам нужно установить бота и копировать директории с того сервера, где запущен бот
+
+backup:
+  local: true # сохранять ежедневные бэкапы? true or false
+  auto: "06:00" # время по МСК в которое будут создаваться ежедневные бэкапы
+  format: "zip" # формат сохранения бэкапов
